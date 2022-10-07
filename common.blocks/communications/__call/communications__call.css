@@ -1,0 +1,6 @@
+.communications__call {
+    margin-right: 16px;
+    background-image: url("../../../img/call.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

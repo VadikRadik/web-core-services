@@ -3,3 +3,10 @@
     margin-left: 16px;
     margin-right: 16px;
 }
+
+@media (min-width: 768px) {
+    .article-container__text {
+        align-self: stretch;
+        margin-left: 24px;
+    }
+}

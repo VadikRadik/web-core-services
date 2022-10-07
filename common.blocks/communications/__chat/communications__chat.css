@@ -1,0 +1,6 @@
+.communications__chat {
+    margin-right: 16px;
+    background-image: url("../../../img/chat.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

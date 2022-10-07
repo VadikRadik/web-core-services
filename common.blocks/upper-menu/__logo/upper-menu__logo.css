@@ -2,3 +2,9 @@
     margin-left: 16px;
     margin-right: auto;
 }
+
+@media (min-width: 768px) {
+    .upper-menu__logo {
+        margin-left: 20px;
+    }
+}

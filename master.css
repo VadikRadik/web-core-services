@@ -11,6 +11,8 @@
 @import url("common.blocks/upper-menu/__divider-right/upper-menu__divider-right.css");
 @import url("common.blocks/upper-menu/__repair-button/upper-menu__repair-button.css");
 @import url("common.blocks/upper-menu/__check-status-button/upper-menu__check-status-button.css");
+@import url("common.blocks/upper-menu/__divider-left/upper-menu__divider-left.css");
+@import url("common.blocks/upper-menu/__communications/upper-menu__communications.css");
 
 @import url("common.blocks/page/__title/page__title.css");
 @import url("common.blocks/content-titile/__highlight/content-titile__highlight.css");
@@ -31,3 +33,8 @@
 
 @import url("common.blocks/expanded-text/expanded-text.css");
 @import url("common.blocks/expanded-text/__paragraph/expanded-text__paragraph.css");
+
+@import url("common.blocks/communications/communications.css");
+@import url("common.blocks/communications/__call/communications__call.css");
+@import url("common.blocks/communications/__chat/communications__chat.css");
+@import url("common.blocks/communications/__profile/communications__profile.css");

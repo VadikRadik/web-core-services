@@ -1,0 +1,10 @@
+.upper-menu__divider-left {
+    margin-left: 20px;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .upper-menu__divider-left {
+        display: block;
+    }
+}

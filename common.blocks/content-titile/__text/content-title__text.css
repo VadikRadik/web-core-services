@@ -6,3 +6,9 @@
     font-weight: bold;
     color: #1B1C21;
 }
+
+@media (min-width: 768px) {
+    .content-title__text {
+        margin-left: 20px;
+    }
+}
