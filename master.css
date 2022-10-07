@@ -1,0 +1,33 @@
+@import url("common.blocks/page/page.css");
+
+@import url("common.blocks/button/button.css");
+@import url("common.blocks/logo/logo.css");
+@import url("common.blocks/divider/divider.css");
+@import url("common.blocks/content-titile/content-title.css");
+
+@import url("common.blocks/upper-menu/upper-menu.css");
+@import url("common.blocks/upper-menu/__menu-button/upper-menu__menu-button.css");
+@import url("common.blocks/upper-menu/__logo/upper-menu__logo.css");
+@import url("common.blocks/upper-menu/__divider-right/upper-menu__divider-right.css");
+@import url("common.blocks/upper-menu/__repair-button/upper-menu__repair-button.css");
+@import url("common.blocks/upper-menu/__check-status-button/upper-menu__check-status-button.css");
+
+@import url("common.blocks/page/__title/page__title.css");
+@import url("common.blocks/content-titile/__highlight/content-titile__highlight.css");
+@import url("common.blocks/content-titile/__text/content-title__text.css");
+
+@import url("common.blocks/page/__slide-menu/page__slide-menu.css");
+@import url("common.blocks/slide-menu/slide-menu.css");
+@import url("common.blocks/slide-menu/__item/slide-menu__item.css");
+@import url("common.blocks/slide-menu/--active/slide-menu__item--active.css");
+
+@import url("common.blocks/expander/expander.css");
+@import url("common.blocks/expander/__arrow/expander__arrow.css");
+@import url("common.blocks/expander/__label/expander__label.css");
+
+@import url("common.blocks/article-container/article-container.css");
+@import url("common.blocks/article-container/__text/article-container__text.css");
+@import url("common.blocks/article-container/__image/article-container__image.css");
+
+@import url("common.blocks/expanded-text/expanded-text.css");
+@import url("common.blocks/expanded-text/__paragraph/expanded-text__paragraph.css");

@@ -1,0 +1,7 @@
+.content-title__highlight {
+    width: 8px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: -4px;
+    background-color: #41F6D7;
+}

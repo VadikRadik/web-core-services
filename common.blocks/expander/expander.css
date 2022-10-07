@@ -1,0 +1,11 @@
+.expander {
+    display: flex;
+    align-items: center;
+    list-style: none; /*for hiding default marker*/
+}
+
+/*for hiding default marker*/
+.expander::marker, /* Latest Chrome, Edge, Firefox */ 
+.expander::-webkit-details-marker /* Safari */ {
+    display: none;
+}

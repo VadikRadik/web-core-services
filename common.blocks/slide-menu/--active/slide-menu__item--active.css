@@ -1,0 +1,7 @@
+.slide-menu__item--active {
+    border-color: #B8FFEC;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
