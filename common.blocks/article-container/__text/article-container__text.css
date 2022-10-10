@@ -10,3 +10,9 @@
         margin-left: 24px;
     }
 }
+
+@media (min-width: 1120px) {
+    .article-container__text {
+        margin-left: 32px;
+    }
+}

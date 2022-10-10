@@ -9,14 +9,19 @@
 @import url("common.blocks/upper-menu/__menu-button/upper-menu__menu-button.css");
 @import url("common.blocks/upper-menu/__logo/upper-menu__logo.css");
 @import url("common.blocks/upper-menu/__divider-right/upper-menu__divider-right.css");
-@import url("common.blocks/upper-menu/__repair-button/upper-menu__repair-button.css");
-@import url("common.blocks/upper-menu/__check-status-button/upper-menu__check-status-button.css");
 @import url("common.blocks/upper-menu/__divider-left/upper-menu__divider-left.css");
 @import url("common.blocks/upper-menu/__communications/upper-menu__communications.css");
+@import url("common.blocks/upper-menu/__orders-menu/upper-menu__orders-menu.css");
+
+@import url("common.blocks/orders-menu/orders-menu.css");
+@import url("common.blocks/orders-menu/__repair-button/orders-menu__repair-button.css");
+@import url("common.blocks/orders-menu/__check-status-button/orders-menu__check-status-button.css");
+@import url("common.blocks/orders-menu/__label/orders-menu__label.css");
 
 @import url("common.blocks/page/__title/page__title.css");
 @import url("common.blocks/content-titile/__highlight/content-titile__highlight.css");
 @import url("common.blocks/content-titile/__text/content-title__text.css");
+@import url("common.blocks/content-titile/__orders-menu/content-title__orders-menu.css");
 
 @import url("common.blocks/page/__slide-menu/page__slide-menu.css");
 @import url("common.blocks/slide-menu/slide-menu.css");

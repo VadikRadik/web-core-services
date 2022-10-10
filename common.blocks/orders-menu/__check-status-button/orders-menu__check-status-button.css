@@ -1,5 +1,4 @@
-.upper-menu__check-status-button {
-    margin-right: 16px;
+.orders-menu__check-status-button {
     background-image: url("../../../img/check-status.svg");
     background-repeat: no-repeat;
     background-position: center;

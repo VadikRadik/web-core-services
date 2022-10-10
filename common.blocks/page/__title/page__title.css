@@ -1,3 +1,9 @@
 .page__title {
     margin-top: 24px;
 }
+
+@media (min-width: 1120px) {
+    .page__title {
+        margin-top: 42px;
+    }
+}

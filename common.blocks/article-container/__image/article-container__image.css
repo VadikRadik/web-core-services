@@ -4,11 +4,9 @@
     display: none;
 }
 
-
 .article-container__image:nth-of-type(1) {
     display: block;
 }
-
 
 @media (min-width: 768px) {
     .article-container__image {
@@ -20,6 +18,20 @@
         display: none;
     }
     .article-container__image:nth-of-type(2) {
+        display: block;
+    }
+}
+
+@media (min-width: 1120px) {
+    .article-container__image {
+        margin-right: 28px;
+        border-radius: 8px;
+    }
+
+    .article-container__image:nth-of-type(n) {
+        display: none;
+    }
+    .article-container__image:nth-of-type(3) {
         display: block;
     }
 }

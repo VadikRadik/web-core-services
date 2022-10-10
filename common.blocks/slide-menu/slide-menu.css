@@ -6,3 +6,10 @@
     overflow-x: scroll;
     justify-content: flex-start;
 }
+
+@media (min-width: 1120px) {
+    .slide-menu {
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    }
+}
