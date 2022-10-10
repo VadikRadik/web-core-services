@@ -10,6 +10,7 @@
 
 @media (min-width: 768px) {
     .article-container__image {
+        align-self: flex-start;
         margin-right: 24px;
         border-radius: 6px;
     }
