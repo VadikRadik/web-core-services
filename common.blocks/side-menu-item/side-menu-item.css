@@ -1,0 +1,10 @@
+.side-menu-item {
+    display: block;
+    height: 32px;
+    font-family: "TT Lakes Condensed", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    counter-reset: #1B1C21;
+    padding-left: 24px;
+}

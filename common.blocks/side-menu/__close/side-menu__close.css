@@ -1,0 +1,6 @@
+.side-menu__close {
+    margin-left: 24px;
+    background-image: url("../../../img/close.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

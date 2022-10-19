@@ -1,0 +1,16 @@
+.side-menu-item--active {
+    color: #7E7E82;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu-item--active::before {
+    display: block;
+    width: 8px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #41F6D7;
+    content: "";
+    margin-left: -36px;
+    margin-right: 28px;
+}
