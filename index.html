@@ -5,7 +5,8 @@
         <title>Услуги и сервисы</title>
         <link href="./master.css" rel="stylesheet">
         <link href="./fonts.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+        <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet"/>
     </head>
     <body class="page">
         <header class="upper-menu">
@@ -52,8 +53,23 @@
                         <p class="expanded-text__paragraph">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
                     </details>
                 </div>
-                <img class="article-container__image" src="files/logo_photo_1120.png" alt="фото лого">
+                <img class="article-container__image" src="files/logo_photo_1120.png" alt="фото лого cps">
             </article>
+            <section class="brands page__brands">
+                <div class="section-title">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
+                <div class="swiper brands-swiper">
+                    <div class="swiper-wrapper"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <template id="brand-card-template">
+                <div class="brand-card">
+                    <img class="brand-card__logo">
+                    <a class="card-button brand-card__button"></a>
+                </div>
+            </template>
         </main>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./common.blocks/brands-list/brands-list.js"></script>
     </body>
 </html>

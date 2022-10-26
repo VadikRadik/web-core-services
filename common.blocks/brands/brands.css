@@ -1,0 +1,10 @@
+.brands {
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper {
+    width: 320px;
+    height: 136px;
+}
+

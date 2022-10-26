@@ -1,0 +1,23 @@
+.section-title {
+    font-family: "TT Lakes", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #7E7E82;
+    padding: 16px;
+    background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    border-top: 1px solid #D9FFF5;
+    white-space: pre-wrap;
+}
+
+@media (min-width: 768px) {
+    .section-title {
+        padding-left: 24px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .section-title {
+        padding-left: 32px;
+    }
+}

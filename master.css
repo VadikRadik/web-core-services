@@ -45,3 +45,14 @@
 @import url("./common.blocks/communications/__call/communications__call.css");
 @import url("./common.blocks/communications/__chat/communications__chat.css");
 @import url("./common.blocks/communications/__profile/communications__profile.css");
+
+@import url("./common.blocks/brands/brands.css");
+@import url("./common.blocks/page/__brands/page__brands.css");
+
+@import url("./common.blocks/section-title/section-title.css");
+
+@import url("./common.blocks/brand-card/brand-card.css");
+@import url("./common.blocks/brand-card/__button/brand-card__button.css");
+@import url("./common.blocks/brand-card/__logo/brand-card__logo.css");
+
+@import url("./common.blocks/card-button/card-button.css");
