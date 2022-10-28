@@ -48,6 +48,9 @@
 
 @import url("./common.blocks/brands/brands.css");
 @import url("./common.blocks/page/__brands/page__brands.css");
+@import url("./common.blocks/brands/__swiper/brands__swiper.css");
+@import url("./common.blocks/brands/__tiles/brands__tiles.css");
+@import url("./common.blocks/brands/__show-all/brands__show-all.css");
 
 @import url("./common.blocks/section-title/section-title.css");
 
@@ -56,3 +59,16 @@
 @import url("./common.blocks/brand-card/__logo/brand-card__logo.css");
 
 @import url("./common.blocks/card-button/card-button.css");
+
+@import url("./common.blocks/brands-swiper/brands-swiper.css");
+@import url("./common.blocks/brands-swiper/__card/brands-swiper__card.css");
+
+@import url("./common.blocks/brands-tiles/brands-tiles.css");
+@import url("./common.blocks/brands-tiles/__tile/brands-tiles__tile.css");
+@import url("./common.blocks/brands-tiles/--expanded/brands-tiles--expanded.css");
+
+@import url("./common.blocks/show-all/show-all.css");
+@import url("./common.blocks/show-all/__arrow/show-all__arrow.css");
+@import url("./common.blocks/show-all/__label/show-all__label.css");
+
+@import url("./common.blocks/page/__block--hidden/page__block--hidden.css");
