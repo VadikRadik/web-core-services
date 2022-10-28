@@ -1,0 +1,6 @@
+.show-all {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
