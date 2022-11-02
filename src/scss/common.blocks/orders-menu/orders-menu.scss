@@ -1,0 +1,8 @@
+@import './__check-status-button/orders-menu__check-status-button.scss';
+@import './__label/orders-menu__label.scss';
+@import './__repair-button/orders-menu__repair-button.scss';
+
+.orders-menu {
+    display: flex;
+    align-items: center;
+}

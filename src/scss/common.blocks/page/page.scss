@@ -1,0 +1,12 @@
+@import './__block--hidden/page__block--hidden.scss';
+@import './__brands/page__brands.scss';
+@import './__content/page__content.scss';
+@import './__slide-menu/page__slide-menu.scss';
+@import './__title/page__title.scss';
+
+.page {
+    margin: 0;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,12 @@
+.upper-menu__menu-button {
+    margin-left: 16px;
+    background-image: url("../img/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .upper-menu__menu-button {
+        margin-left: 24px;
+    }
+}

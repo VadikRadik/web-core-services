@@ -1,0 +1,13 @@
+@import './__close/side-menu__close.scss';
+@import './__footer/side-menu__footer.scss';
+@import './__header/side-menu__header.scss';
+@import './__logo/side-menu__logo.scss';
+@import './__search/side-menu__search.scss';
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: #ffffff;
+    min-height: 97vh;
+}

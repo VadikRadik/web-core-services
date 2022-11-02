@@ -1,0 +1,12 @@
+.orders-menu__repair-button {
+    margin-right: 16px;
+    background-image: url("../img/repair.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 1120px) {
+    .orders-menu__repair-button {
+        margin-right: 32px;
+    }
+}

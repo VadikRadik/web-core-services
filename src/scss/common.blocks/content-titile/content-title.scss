@@ -1,0 +1,10 @@
+@import './__highlight/content-titile__highlight.scss';
+@import './__orders-menu/content-title__orders-menu.scss';
+@import './__text/content-title__text.scss';
+
+.content-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+}

@@ -1,0 +1,61 @@
+/*$bgColor: #24292e;
+$text: #fff;
+
+@font-face {
+  font-family: 'Comic';
+  src: url('../fonts/comic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  padding: 1rem;
+  margin: 0;
+  font-family: Comic, sans-serif;
+  background-color: $bgColor;
+  color: $text;
+}*/
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import './common.blocks/article-container/article-container.scss';
+@import './common.blocks/brand-card/brand-card.scss';
+@import './common.blocks/brands-swiper/brands-swiper.scss';
+@import './common.blocks/brands-tiles/brands-tiles.scss';
+@import './common.blocks/brands/brands.scss';
+@import './common.blocks/button/button.scss';
+@import './common.blocks/card-button/card-button.scss';
+@import './common.blocks/communications/communications.scss';
+@import './common.blocks/contacts/contacts.scss';
+@import './common.blocks/content-titile/content-title.scss';
+@import './common.blocks/divider/divider.scss';
+@import './common.blocks/expanded-text/expanded-text.scss';
+@import './common.blocks/expander/expander.scss';
+@import './common.blocks/lang-switch/lang-switch.scss';
+@import './common.blocks/logo/logo.scss';
+@import './common.blocks/orders-menu/orders-menu.scss';
+@import './common.blocks/page/page.scss';
+@import './common.blocks/section-title/section-title.scss';
+@import './common.blocks/show-all/show-all.scss';
+@import './common.blocks/side-menu-item/side-menu-item.scss';
+@import './common.blocks/side-menu-list/side-menu-list.scss';
+@import './common.blocks/slide-menu/slide-menu.scss';
+@import './common.blocks/upper-menu/upper-menu.scss';
+

@@ -1,0 +1,9 @@
+@import './__show-all/brands__show-all.scss';
+@import './__swiper/brands__swiper.scss';
+@import './__tiles/brands__tiles.scss';
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

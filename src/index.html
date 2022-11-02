@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Услуги и сервисы</title>
+        <!--<link href="./master.css" rel="stylesheet">
+        <link href="./fonts.css" rel="stylesheet">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+        <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet"/>
+    </head>
+    <body class="page">
+        <header class="upper-menu">
+            <a class="button upper-menu__menu-button"></a>
+            <div class="divider upper-menu__divider-left"></div>
+            <a class="logo upper-menu__logo"></a>
+            <div class="communications upper-menu__communications">
+                <a class="button communications__call"></a>
+                <a class="button communications__chat"></a>
+                <a class="button communications__profile"></a>
+            </div>
+            <div class="divider upper-menu__divider-right"></div>
+            <div class="orders-menu upper-menu__orders-menu">
+                <span class="orders-menu__label">Оставить заявку</span>
+                <a class="button orders-menu__repair-button"></a>
+                <span class="orders-menu__label">Статус ремонта</span>
+                <a class="button orders-menu__check-status-button"></a>
+            </div>
+        </header>
+        <main>
+            <div class="content-title page__title">
+                <span class="content-title__highlight"></span>
+                <h1 class="content-title__text">Услуги и сервисы</h1>
+                <div class="orders-menu content-title__orders-menu">
+                    <span class="orders-menu__label">Оставить заявку</span>
+                    <a class="button orders-menu__repair-button"></a>
+                    <span class="orders-menu__label">Статус ремонта</span>
+                    <a class="button orders-menu__check-status-button"></a>
+                </div>
+            </div>
+            <nav class="slide-menu page__slide-menu">
+                <a class="slide-menu__item slide-menu__item--active">Ремонтируемые бренды</a>
+                <a class="slide-menu__item">Ремонтируемые устройства</a>
+                <a class="slide-menu__item">Цены на услуги</a>
+                <a class="slide-menu__item">Адреса сервисных центров</a>
+                <a class="slide-menu__item">Специальные цены</a>
+                <a class="slide-menu__item">Отзывы</a>
+            </nav>
+            <article class="article-container page__content">
+                <div class="expanded-text article-container__text">
+                    <p class="expanded-text__paragraph">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                    <details>
+                        <summary class="expander"><span class="expander__arrow"></span><span class="expander__label">Читать далее</span></summary>
+                        <p class="expanded-text__paragraph">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                    </details>
+                </div>
+                <img class="article-container__image" src="./img/logo_photo_1120.png" alt="фото лого cps">
+            </article>
+            <section class="brands page__brands">
+                <div class="section-title">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
+                <div class="swiper brands-swiper page__block--hidden brands__swiper">
+                    <div class="swiper-wrapper"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="brands-tiles brands__tiles page__block--hidden"></div>
+            </section>
+            <template id="brand-card-template">
+                <div class="brand-card">
+                    <img class="brand-card__logo">
+                    <a class="card-button brand-card__button"></a>
+                </div>
+            </template>
+            <template id="show-all-template">
+                <div class="show-all">
+                    <span class="show-all__arrow"></span>
+                    <span class="show-all__label">Показать все</span>
+                    <span class="show-all__label page__block--hidden">Скрыть</span>
+                </div>
+            </template>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./common.blocks/show-all/show-all.js"></script>
+        <script src="./common.blocks/brands/brands.js"></script>
+    </body>
+</html>

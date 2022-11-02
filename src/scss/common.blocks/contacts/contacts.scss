@@ -1,0 +1,9 @@
+@import './__lang-switch/contacts__lang-switch.scss';
+@import './__mail/contacts__mail.scss';
+@import './__phone/contacts__phone.scss';
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}

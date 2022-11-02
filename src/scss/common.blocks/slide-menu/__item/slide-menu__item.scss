@@ -1,0 +1,25 @@
+.slide-menu__item {
+    display: block;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 9px;
+    white-space: nowrap;
+
+    transition: all 0.5s ease;
+}
+
+.slide-menu__item:hover {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+@media (min-width: 1120px) {
+    .slide-menu__item {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}

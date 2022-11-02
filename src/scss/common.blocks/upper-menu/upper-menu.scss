@@ -1,0 +1,23 @@
+@import './__communications/upper-menu__communications.scss';
+@import './__divider-left/upper-menu__divider-left.scss';
+@import './__divider-right/upper-menu__divider-right.scss';
+@import './__logo/upper-menu__logo.scss';
+@import './__menu-button/upper-menu__menu-button.scss';
+@import './__orders-menu/upper-menu__orders-menu.scss';
+
+.upper-menu {
+    background-color: #FFFFFF;
+    width: auto;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    border-bottom-color: #D9FFF5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+@media (min-width: 1120px) {
+    .upper-menu {
+        display: none;
+    }
+}

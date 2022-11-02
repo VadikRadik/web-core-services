@@ -1,0 +1,17 @@
+.article-container__text {
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+    .article-container__text {
+        margin-left: 24px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .article-container__text {
+        margin-left: 32px;
+    }
+}

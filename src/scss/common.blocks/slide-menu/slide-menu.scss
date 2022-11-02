@@ -1,0 +1,17 @@
+@import './--active/slide-menu__item--active.scss';
+@import './__item/slide-menu__item.scss';
+
+.slide-menu {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: flex-start;
+}
+
+@media (min-width: 1120px) {
+    .slide-menu {
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    }
+}
