@@ -1,9 +1,7 @@
 .page__title {
     margin-top: 24px;
-}
 
-@media (min-width: 1120px) {
-    .page__title {
+    @media (min-width: 1120px) {
         margin-top: 42px;
         width: 1120px;
         margin-left: auto;

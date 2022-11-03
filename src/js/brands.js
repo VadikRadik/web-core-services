@@ -1,51 +1,65 @@
+import 'swiper/swiper-bundle.css'
+import Swiper, { Pagination } from 'swiper';
+
+import {createShowAll} from './show-all.js';
+
+import lenovoImg from "../img/lenovo.png";
+import samsungImg from "../img/samsung.png";
+import appleImg from "../img/apple.png";
+import viewsonicImg from "../img/viewsonic.png";
+import boschImg from "../img/bosch.png";
+import hpImg from "../img/hp.png";
+import acerImg from "../img/acer.png";
+import sonyImg from "../img/sony.png";
+
 let brands = [
     {
-        src: "./files/lenovo.png",
+        src: lenovoImg,
         alt: "лого lenovo",
     },
     {
-        src: "./files/samsung.png",
+        src: samsungImg,
         alt: "лого samsung",
     },
     {
-        src: "./files/apple.png",
+        src: appleImg,
         alt: "лого apple",
     },
     {
-        src: "./files/viewsonic.png",
+        src: viewsonicImg,
         alt: "лого viewsonic",
     },
     {
-        src: "./files/bosch.png",
+        src: boschImg,
         alt: "лого bosch",
     },
     {
-        src: "./files/hp.png",
+        src: hpImg,
         alt: "лого hp",
     },
     {
-        src: "./files/acer.png",
+        src: acerImg,
         alt: "лого acer",
     },
     {
-        src: "./files/sony.png",
+        src: sonyImg,
         alt: "лого sony",
     },
     {
-        src: "./files/lenovo.png",
+        src: lenovoImg,
         alt: "лого lenovo",
     },
     {
-        src: "./files/samsung.png",
+        src: samsungImg,
         alt: "лого samsung",
     },
     {
-        src: "./files/apple.png",
+        src: appleImg,
         alt: "лого apple",
     },
 ]
 
-const swiperClass = ".brands-swiper"
+const swiperClass = ".brands-swiper";
 
 let createBrandCards = function(brands) {
     let cardTemplate = document.querySelector("#brand-card-template").content;
@@ -64,6 +78,7 @@ let createBrandCards = function(brands) {
 
 let createSwiper = function(brands) {
     let swiper = new Swiper(swiperClass, {
+        modules: [Pagination],
         slidesPerView: "auto",
         pagination: {
           el: ".swiper-pagination",

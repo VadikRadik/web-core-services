@@ -1,4 +1,4 @@
-@import './--expanded/brands-tiles--expanded.scss';
+
 @import './__tile/brands-tiles__tile.scss';
 
 .brands-tiles {
@@ -9,3 +9,5 @@
     height: 180px;
     overflow-y: hidden;
 }
+
+@import './--expanded/brands-tiles--expanded.scss';

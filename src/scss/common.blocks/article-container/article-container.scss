@@ -6,10 +6,8 @@
     flex-direction: column;
 
     @media (min-width: 768px) {
-        .article-container {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: flex-start;
-        }
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 }

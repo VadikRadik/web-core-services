@@ -8,8 +8,8 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.3s ease;
-}
 
-.card-button:hover {
-    background-color: #ff3e7828;
+    &:hover {
+        background-color: #ff3e7828;
+    }
 }

@@ -5,9 +5,9 @@
     background-color: #FF3E79;
     display: block;
     transition: all 0.3s ease;
-}
 
-.button:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(0 0 10px #80949F) opacity(0.9);
+    &:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 10px #80949F) opacity(0.9);
+    }
 }

@@ -3,10 +3,8 @@
     background-image: url("../img/repair.svg");
     background-repeat: no-repeat;
     background-position: center;
-}
 
-@media (min-width: 1120px) {
-    .orders-menu__repair-button {
+    @media (min-width: 1120px) {
         margin-right: 32px;
     }
 }

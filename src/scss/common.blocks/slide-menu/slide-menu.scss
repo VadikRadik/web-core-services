@@ -7,10 +7,8 @@
     flex-wrap: nowrap;
     overflow-x: scroll;
     justify-content: flex-start;
-}
 
-@media (min-width: 1120px) {
-    .slide-menu {
+    @media (min-width: 1120px) {
         overflow-x: hidden;
         flex-wrap: wrap;
     }

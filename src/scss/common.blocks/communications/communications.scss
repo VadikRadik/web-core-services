@@ -4,10 +4,8 @@
 
 .communications {
     display: none;
-}
 
-@media (min-width: 768px) {
-    .communications {
+    @media (min-width: 768px) {
         display: flex;
         align-items: center;
         flex-direction: row;

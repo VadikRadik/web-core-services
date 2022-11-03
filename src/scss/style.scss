@@ -1,21 +1,3 @@
-/*$bgColor: #24292e;
-$text: #fff;
-
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
-}*/
-
 @font-face {
   font-family: 'TT Lakes';
   src: url('../fonts/TTLakes-Regular.ttf') format('truetype');
@@ -44,7 +26,6 @@ body {
 @import './common.blocks/card-button/card-button.scss';
 @import './common.blocks/communications/communications.scss';
 @import './common.blocks/contacts/contacts.scss';
-@import './common.blocks/content-titile/content-title.scss';
 @import './common.blocks/divider/divider.scss';
 @import './common.blocks/expanded-text/expanded-text.scss';
 @import './common.blocks/expander/expander.scss';
@@ -58,4 +39,6 @@ body {
 @import './common.blocks/side-menu-list/side-menu-list.scss';
 @import './common.blocks/slide-menu/slide-menu.scss';
 @import './common.blocks/upper-menu/upper-menu.scss';
+@import './common.blocks/content-titile/content-title.scss';
+
 

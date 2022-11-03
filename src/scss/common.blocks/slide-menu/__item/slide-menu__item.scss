@@ -10,16 +10,15 @@
     white-space: nowrap;
 
     transition: all 0.5s ease;
-}
 
-.slide-menu__item:hover {
-    background-color: #FFFFFF;
-    border-radius: 6px;
-}
-
-@media (min-width: 1120px) {
-    .slide-menu__item {
+    &:hover {
+        background-color: #FFFFFF;
+        border-radius: 6px;
+    }
+    
+    @media (min-width: 1120px) {
         padding-left: 22px;
         padding-right: 22px;
     }
 }
+

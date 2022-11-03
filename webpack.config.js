@@ -6,7 +6,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   // Входной файл
   entry: [
-    './src/js/index.js'
+    './src/js/index.js',
+	'./src/js/brands.js'
   ],
 
   // Выходной файл
@@ -34,7 +35,7 @@ module.exports = {
 
       // Компилируем SCSS в CSS
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         use: [
           MiniCssExtractPlugin.loader, // Extract css to separate file
           'css-loader', // translates CSS into CommonJS

@@ -1,4 +1,4 @@
-let createShowAll = function(parentBlockClass, blockClassToShow) {
+export let createShowAll = function(parentBlockClass, blockClassToShow) {
     let showAllTemplate = document.querySelector("#show-all-template").content;
 
     let showAll = showAllTemplate.querySelector(".show-all").cloneNode(true);

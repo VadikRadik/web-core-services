@@ -14,10 +14,8 @@
     border-bottom-color: #D9FFF5;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-}
 
-@media (min-width: 1120px) {
-    .upper-menu {
+    @media (min-width: 1120px) {
         display: none;
     }
 }

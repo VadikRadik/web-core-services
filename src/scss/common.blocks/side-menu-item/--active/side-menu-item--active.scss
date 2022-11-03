@@ -2,16 +2,16 @@
     color: #7E7E82;
     position: relative;
     top: -32px;
-}
 
-.side-menu-item--active::before {
-    display: block;
-    width: 8px;
-    height: 32px;
-    border-radius: 4px;
-    background-color: #41F6D7;
-    content: "";
-    position: relative;
-    left: -36px;
-    top: 28px;
+    &::before {
+        display: block;
+        width: 8px;
+        height: 32px;
+        border-radius: 4px;
+        background-color: #41F6D7;
+        content: "";
+        position: relative;
+        left: -36px;
+        top: 28px;
+    }
 }

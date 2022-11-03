@@ -2,10 +2,8 @@
     margin-left: auto;
     margin-right: 32px;
     display: none;
-}
 
-@media (min-width: 1120px) {
-    .content-title__orders-menu {
+    @media (min-width: 1120px) {
         display: flex;
     }
 }

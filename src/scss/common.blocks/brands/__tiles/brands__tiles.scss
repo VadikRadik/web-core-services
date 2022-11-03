@@ -1,10 +1,8 @@
 .brands__tiles {
     margin-left: 24px;
     margin-top: 24px;
-}
 
-@media (min-width: 1120px) {
-    .brands__tiles {
+    @media (min-width: 1120px) {
         margin-left: 32px;
     }
 }

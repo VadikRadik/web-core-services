@@ -1,17 +1,13 @@
 .page__slide-menu {
     margin-top: 24px;
     margin-left: 16px;
-}
 
-@media (min-width: 768px) {
-    .page__slide-menu {
+    @media (min-width: 768px) {
         margin-top: 32px;
         margin-left: 24px;
     }
-}
-
-@media (min-width: 1120px) {
-    .page__slide-menu {
+    
+    @media (min-width: 1120px) {
         width: 1120px;
         margin-left: auto;
         margin-right: auto;
