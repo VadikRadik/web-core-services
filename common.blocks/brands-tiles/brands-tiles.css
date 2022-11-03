@@ -1,8 +1,0 @@
-.brands-tiles {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-start;
-    height: 180px;
-    overflow-y: hidden;
-}

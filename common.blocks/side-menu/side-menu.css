@@ -1,7 +1,0 @@
-.side-menu {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-    background-color: #ffffff;
-    min-height: 97vh;
-}
