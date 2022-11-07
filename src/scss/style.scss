@@ -17,6 +17,9 @@
   font-style: normal;
 }
 
+$desctopWidth: 1120px;
+$backgroundWhite: #FFFFFF;
+
 @import './common.blocks/article-container/article-container.scss';
 @import './common.blocks/brand-card/brand-card.scss';
 @import './common.blocks/brands-swiper/brands-swiper.scss';
@@ -35,10 +38,11 @@
 @import './common.blocks/page/page.scss';
 @import './common.blocks/section-title/section-title.scss';
 @import './common.blocks/show-all/show-all.scss';
+@import './common.blocks/side-menu/side-menu.scss';
 @import './common.blocks/side-menu-item/side-menu-item.scss';
 @import './common.blocks/side-menu-list/side-menu-list.scss';
 @import './common.blocks/slide-menu/slide-menu.scss';
 @import './common.blocks/upper-menu/upper-menu.scss';
 @import './common.blocks/content-titile/content-title.scss';
-
-
+@import './common.blocks/body/body.scss';
+@import './common.blocks/fog/fog.scss';

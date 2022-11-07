@@ -3,4 +3,8 @@
     background-image: url("../img/close.svg");
     background-repeat: no-repeat;
     background-position: center;
+
+    @media (min-width: $desctopWidth) {
+        display: none;
+    }
 }

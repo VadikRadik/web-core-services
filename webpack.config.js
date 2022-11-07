@@ -6,8 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   // Входной файл
   entry: [
-    './src/js/index.js',
-	'./src/js/brands.js'
+    './src/js/index.js'
   ],
 
   // Выходной файл

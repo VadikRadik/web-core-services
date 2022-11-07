@@ -9,5 +9,21 @@
     flex-direction: column;
     width: 320px;
     background-color: #ffffff;
-    min-height: 97vh;
+    min-height: 100vh;
+    position: absolute;
+    transform: translateX(-320px);
+    flex-shrink: 0;
+    transition: all 0.5s ease;
+    z-index: 20;
+
+    @media (min-width: $desctopWidth) {
+        display: flex;
+        transform: unset;
+        position: static;
+    }
+}
+
+.side-menu--open{
+    transform: translateX(0);
+    filter: drop-shadow(30px 0 30px #888888);
 }

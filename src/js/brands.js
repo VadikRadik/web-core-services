@@ -1,4 +1,4 @@
-import 'swiper/swiper-bundle.css'
+import 'swiper/swiper-bundle.min.css'
 import Swiper, { Pagination } from 'swiper';
 
 import {createShowAll} from './show-all.js';
@@ -144,10 +144,13 @@ let createBrandTiles = function(brands) {
     parentBlock.appendChild(showAll);
 }
 
-let isMobile = window.matchMedia("only screen and (max-width: 768px)").matches;
+export let initializeBrandsSection = function() {
+    let isMobile = window.matchMedia("only screen and (max-width: 768px)").matches;
 
-if (isMobile) {
-    createSwiper(brands);
-} else {
-    createBrandTiles(brands);
-}
+    if (isMobile) {
+        createSwiper(brands);
+    } else {
+        createBrandTiles(brands);
+    }
+} 
+
