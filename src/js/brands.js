@@ -77,6 +77,7 @@ let createBrandCards = function(brands) {
 }
 
 let createSwiper = function(brands) {
+    
     let swiper = new Swiper(swiperClass, {
         modules: [Pagination],
         slidesPerView: "auto",

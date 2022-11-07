@@ -10,4 +10,7 @@
     overflow-y: hidden;
 }
 
-@import './--expanded/brands-tiles--expanded.scss';
+.brands-tiles--expanded {
+    overflow-y: visible;
+    height: auto;
+}
