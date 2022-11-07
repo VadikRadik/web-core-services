@@ -1,16 +1,16 @@
-.fog {
+.fog-modal {
     position: absolute;
-    left: 0;
+    left: -320px;
     top: 0;
     right: 0;
     bottom: 0;
     background-color: $backgroundWhite;
     z-index: -15;
-    transition: all 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
     opacity: 0;
 }
 
-.fog--visible {
+.fog-modal--visible {
     opacity: 0.9;
-    z-index: 15;
+    z-index: 25;
 }

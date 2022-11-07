@@ -1,0 +1,28 @@
+@import './__button-close/modal-call__button-close.scss';
+@import './__title/modal-call__title.scss';
+@import './__phone-input/modal-call__phone-input.scss';
+@import './__disclaimer/modal-call__disclaimer.scss';
+@import './__submit-button/modal-call__submit-button.scss';
+@import './__link/modal-call__link.scss';
+
+.modal-call {
+    position: absolute;
+    width: 320px;
+    height: 100vh;
+    right: 0;
+    transform: translateX(320px);
+    background-color: $backgroundWhite;
+    z-index: 30;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $tabletWidth) {
+        width: 440px;
+    }
+}
+
+.modal-call--open {
+    transform: translateX(0);
+    filter: drop-shadow(-30px 0 30px #888888);
+}

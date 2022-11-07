@@ -1,0 +1,18 @@
+.modal-container {
+    overflow-x: hidden;
+    position: absolute;
+    width: 320px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 30;
+
+    @media (min-width: $tabletWidth) {
+        width: 600px;
+    }
+}
+
+.modal-container--visible {
+    visibility: visible;
+}

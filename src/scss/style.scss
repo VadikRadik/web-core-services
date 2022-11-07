@@ -18,7 +18,14 @@
 }
 
 $desctopWidth: 1120px;
+$tabletWidth: 768px;
 $backgroundWhite: #FFFFFF;
+$textColor: #1B1C21;
+$accentColor: #41F6D7;
+$lightTextColor: #B5B6BC;
+$borderColor: #EAEAEA;
+$inputTextColor: #7E7E82;
+$buttonsColor: #FF3E79;
 
 @import './common.blocks/article-container/article-container.scss';
 @import './common.blocks/brand-card/brand-card.scss';
@@ -45,4 +52,9 @@ $backgroundWhite: #FFFFFF;
 @import './common.blocks/upper-menu/upper-menu.scss';
 @import './common.blocks/content-titile/content-title.scss';
 @import './common.blocks/body/body.scss';
-@import './common.blocks/fog/fog.scss';
+@import './common.blocks/fog-menu/fog-menu.scss';
+@import './common.blocks/fog-modal/fog-modal.scss';
+@import './common.blocks/modal-call/modal-call.scss';
+@import './common.blocks/modal-container/modal-container.scss';
+@import './common.blocks/input-text/input-text.scss';
+@import './common.blocks/long-button/long-button.scss';

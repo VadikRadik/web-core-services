@@ -1,0 +1,14 @@
+.modal-call__disclaimer {
+    color: $lightTextColor;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+
+    @media (min-width: $tabletWidth) {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
