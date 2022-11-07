@@ -51,4 +51,30 @@ export let createHandlers = function() {
         let fog = document.querySelector(".fog-modal");
         fog.classList.remove("fog-modal--visible");
     });
+
+    let feedbackButtons = document.querySelectorAll(".communications__chat");
+    for (let i = 0; i < feedbackButtons.length; i++) {
+        feedbackButtons[i].addEventListener("click", function() {
+            let modalContainer = document.querySelector(".modal-container");
+            modalContainer.classList.add("modal-container--visible");
+
+            let modalCall = document.querySelector(".modal-feedback");
+            modalCall.classList.add("modal-feedback--open");
+
+            let fog = document.querySelector(".fog-modal");
+            fog.classList.add("fog-modal--visible");
+        });
+    }
+
+    let modaFeedbackCloseButton = document.querySelector(".modal-feedback__button-close");
+    modaFeedbackCloseButton.addEventListener("click", function() {
+        let modalContainer = document.querySelector(".modal-container");
+        modalContainer.classList.remove("modal-container--visible");
+
+        let modalFeedback = document.querySelector(".modal-feedback");
+        modalFeedback.classList.remove("modal-feedback--open");
+
+        let fog = document.querySelector(".fog-modal");
+        fog.classList.remove("fog-modal--visible");
+    });
 }

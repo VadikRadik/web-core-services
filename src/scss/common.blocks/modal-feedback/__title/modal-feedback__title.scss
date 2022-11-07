@@ -1,0 +1,27 @@
+.modal-feedback__title {
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    font-weight: bold;
+    color: $textColor;
+
+    @media (min-width: $tabletWidth) {
+        margin-left: 32px;
+    }
+}
+
+.modal-feedback__title::before {
+    content: "";
+    width: 4px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: $accentColor;
+    display: block;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+}

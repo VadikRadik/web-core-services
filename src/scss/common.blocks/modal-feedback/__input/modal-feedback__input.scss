@@ -1,10 +1,10 @@
-.modal-call__submit-button {
-    align-self: flex-end;
+.modal-feedback__input {
     margin-top: 16px;
+    margin-left: 16px;
     margin-right: 16px;
-    text-decoration: none;
 
     @media (min-width: $tabletWidth) {
+        margin-left: 32px;
         margin-right: 32px;
     }
 }
