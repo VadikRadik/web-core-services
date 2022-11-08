@@ -21,6 +21,6 @@
 
     &:hover {
         transform: scale(1.1);
-        filter: drop-shadow(0 0 10px #80949F) opacity(0.9);
+        filter: drop-shadow(0 0 10px $logoGray) opacity(0.9);
     }
 }

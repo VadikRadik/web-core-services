@@ -5,9 +5,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid #EAEAEA;
+    border: 1px solid $borderColor;
     border-radius: 6px;
-    background-color: #FFFFFF;
+    background-color: $backgroundWhite;
     justify-content: space-between;
     min-width: 220px;
     max-width: 240px;

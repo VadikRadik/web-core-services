@@ -2,7 +2,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 2px solid #FF3E79;
+    border: 2px solid $buttonsColor;
     display: block;
     background-image: url("../img/dropdown.svg");
     background-repeat: no-repeat;
@@ -10,6 +10,6 @@
     transition: all 0.3s ease;
 
     &:hover {
-        background-color: #ff3e7828;
+        background-color: $cardButtonHover;
     }
 }

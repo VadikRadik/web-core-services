@@ -3,10 +3,10 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 200;
-    color: #7E7E82;
+    color: $inputTextColor;
     padding: 16px;
-    background-image: linear-gradient(to right, #F8F8F8, #FFFFFF);
-    border-top: 1px solid #D9FFF5;
+    background-image: linear-gradient(to right, $pageBackColor, $backgroundWhite);
+    border-top: 1px solid $borderSectionColor;
     white-space: pre-wrap;
 
     @media (min-width: 768px) {
