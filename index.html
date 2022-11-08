@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Услуги и сервисы</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <link href="style.css" rel="stylesheet"></head>
+    <body class="body">
+        <div class="side-menu">
+            <header class="side-menu__header">
+                <a class="button side-menu__close"></a>
+                <a class="logo side-menu__logo"></a>
+                <a class="button side-menu__search"></a>
+            </header>
+            <div class="side-menu-list">
+                <a href="#" class="side-menu-item side-menu-list__item side-menu-item--active">Ремонт техники</a>
+                <a href="#" class="side-menu-item side-menu-list__item">Услуги и сервисы</a>
+                <a href="#" class="side-menu-item side-menu-list__item">Корпоративным клиентам</a>
+                <a href="#" class="side-menu-item side-menu-list__item">Продавцам техники</a>
+                <a href="#" class="side-menu-item side-menu-list__item">Партнерам</a>
+                <a href="#" class="side-menu-item side-menu-list__item">Производителям</a>
+                <a href="#" class="side-menu-item side-menu-list__item">Наши сервисные центры</a>
+                <a href="#" class="side-menu-item side-menu-list__item">Контакты</a>
+            </div>
+            <footer class="contacts side-menu__footer">
+                <div class="communications">
+                    <a class="button communications__call"></a>
+                    <a class="button communications__chat"></a>
+                    <a class="button communications__profile"></a>
+                </div>
+                <div class="contacts__mail">mail@cps.com</div>
+                <div class="contacts__phone">8 800 890 8900</div>
+                <div class="lang-switch contacts__lang-switch">
+                    <span class="lang-switch__lang-item lang-switch__lang-item-active">RU</span>
+                    <span class="lang-switch__lang-item">EN</span>
+                    <span class="lang-switch__lang-item">CH</span>
+                </div>
+            </footer>
+        </div>
+        <div class="page">
+            <header class="upper-menu">
+                <a class="button upper-menu__menu-button"></a>
+                <div class="divider upper-menu__divider-left"></div>
+                <a class="logo upper-menu__logo"></a>
+                <div class="communications upper-menu__communications">
+                    <a class="button communications__call"></a>
+                    <a class="button communications__chat"></a>
+                    <a class="button communications__profile"></a>
+                </div>
+                <div class="divider upper-menu__divider-right"></div>
+                <div class="orders-menu upper-menu__orders-menu">
+                    <span class="orders-menu__label">Оставить заявку</span>
+                    <a class="button orders-menu__repair-button"></a>
+                    <span class="orders-menu__label">Статус ремонта</span>
+                    <a class="button orders-menu__check-status-button"></a>
+                </div>
+            </header>
+            <main>
+                <div class="content-title page__title">
+                    <span class="content-title__highlight"></span>
+                    <h1 class="content-title__text">Услуги и сервисы</h1>
+                    <div class="orders-menu content-title__orders-menu">
+                        <span class="orders-menu__label">Оставить заявку</span>
+                        <a class="button orders-menu__repair-button"></a>
+                        <span class="orders-menu__label">Статус ремонта</span>
+                        <a class="button orders-menu__check-status-button"></a>
+                    </div>
+                </div>
+                <nav class="slide-menu page__slide-menu">
+                    <a href="#" class="slide-menu__item slide-menu__item--active">Ремонтируемые бренды</a>
+                    <a href="#" class="slide-menu__item">Ремонтируемые устройства</a>
+                    <a href="#" class="slide-menu__item">Цены на услуги</a>
+                    <a href="#" class="slide-menu__item">Адреса сервисных центров</a>
+                    <a href="#" class="slide-menu__item">Специальные цены</a>
+                    <a href="#" class="slide-menu__item">Отзывы</a>
+                </nav>
+                <article class="article-container page__content">
+                    <div class="expanded-text article-container__text">
+                        <p class="expanded-text__paragraph">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                        <details>
+                            <summary class="expander"><span class="expander__arrow"></span><span class="expander__label">Читать далее</span></summary>
+                            <p class="expanded-text__paragraph">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                        </details>
+                    </div>
+                    <img class="article-container__image" src="./img/logo_photo_1120.png" alt="фото лого cps">
+                </article>
+                <section class="brands page__section">
+                    <div class="section-title">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
+                    <div class="swiper brands-swiper page__block--hidden brands__swiper">
+                        <div class="swiper-wrapper"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="brands-tiles brands__tiles page__block--hidden"></div>
+                </section>
+                <section class="kinds page__section">
+                    <div class="section-title">РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ</div>
+                    <div class="swiper kinds-swiper page__block--hidden kinds__swiper">
+                        <div class="swiper-wrapper"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="kinds-tiles kinds__tiles page__block--hidden"></div>
+                </section>
+                <section class="prices page__section">
+                    <div class="section-title">ЦЕНЫ НА УСЛУГИ</div>
+                    <div class="table-row prices__table-header page__block--hidden">
+                        <div class="table-row__column-service">Ремонтные услуги</div>
+                        <div class="table-row__column">Цена</div>
+                        <div class="table-row__column">Срок</div>
+                        <div class="prices__table-header-filler"></div>
+                    </div>
+                    <div class="table prices__table page__block--hidden"></div>
+                    <div class="swiper prices-swiper page__block--hidden prices__swiper">
+                        <div class="swiper-wrapper"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="prices__disclaimer">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</div>
+                    <span class="prices__offer">Получить коммерческое предложение<span class="prices__offer-arrow"></span></span>
+                </section>
+                <template id="brand-card-template">
+                    <div class="brand-card">
+                        <img class="brand-card__logo">
+                        <a class="card-button brand-card__button"></a>
+                    </div>
+                </template>
+                <template id="kind-card-template">
+                    <div class="kind-card">
+                        <div class="kind-card__label"></div>
+                        <a class="card-button kind-card__button"></a>
+                    </div>
+                </template>
+                <template id="show-all-template">
+                    <div class="show-all">
+                        <span class="show-all__arrow"></span>
+                        <span class="show-all__label">Показать все</span>
+                        <span class="show-all__label page__block--hidden">Скрыть</span>
+                    </div>
+                </template>
+                <template id="table-row-card-template">
+                    <div class="table-row table-row-card">
+                        <div class="table-row__column-service"></div>
+                        <div class="table-row__column"></div>
+                        <div class="table-row__column"></div>
+                        <a href="#" class="long-button table-card__button">ЗАКАЗАТЬ</a>
+                    </div>
+                </template>
+                <template id="price-card-template">
+                    <div class="price-card">
+                        <div class="prices-card__service-info">
+                            <div class="price-card__title">Ремонтные услуги</div>
+                            <div class="price-card__info"></div>
+                        </div>
+                        <div class="prices-card__info-block">
+                            <div class="price-card__title">Цена</div>
+                            <div class="price-card__info"></div>
+                        </div>
+                        <div class="prices-card__bottom-block">
+                            <div class="prices-card__info-block">
+                                <div class="price-card__title">Срок</div>
+                                <div class="price-card__info"></div>
+                            </div>
+                            <a href="#" class="long-button prices-card__button">ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </template>
+                <div class="fog-menu"></div>
+                <div class="fog-modal"></div>
+            </main>
+            <footer class="footer">
+                <span class="footer__copyright">
+© 2019 CPS
+Разработано командой Apesong</span>
+                <span class="footer__privacy-policy">Политика конфиденциальности</span>
+                <span class="footer__disclaimer">Информация, размещенная на данной странице, не является публичной офертой</span>
+            </footer>
+            <div class="modal-container">
+                <div class="modal-call">
+                    <div class="button modal-call__button-close"></div>
+                    <div class="modal-call__title">Заказать звонок</div>
+                    <input type="text" class="input-text modal-call__phone-input" placeholder="Телефон">
+                    <div class="modal-call__disclaimer">Нажимая “отправить”, вы даете согласие на <a href="#" class="modal-call__link">обработку персональных данных</a> и соглашаетесь с нашей <a href="#" class="modal-call__link">политикой конфиденциальности</a></div>
+                    <a href="#" class="long-button modal-call__submit-button">ОТПРАВИТЬ</a>
+                </div>
+                <div class="modal-feedback">
+                    <div class="button modal-feedback__button-close"></div>
+                    <div class="modal-feedback__title">Обратная связь</div>
+                    <input type="text" class="input-text modal-feedback__input" placeholder="Имя">
+                    <input type="text" class="input-text modal-feedback__input" placeholder="Телефон">
+                    <input type="text" class="input-text modal-feedback__input" placeholder="Электронная почта">
+                    <textarea rows="5" class="textarea modal-feedback__input" placeholder="Сообщение"></textarea>
+                    <div class="modal-feedback__disclaimer">Нажимая “отправить”, вы даете согласие на <a href="#" class="modal-feedback__link">обработку персональных данных</a> и соглашаетесь с нашей <a href="#" class="modal-feedback__link">политикой конфиденциальности</a></div>
+                    <a href="#" class="long-button modal-feedback__submit-button">ОТПРАВИТЬ</a>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
