@@ -1,0 +1,6 @@
+@import './--active/lang-switch__lang-item--active.scss';
+@import './__lang-item/lang-switch__lang-item.scss';
+
+.lang-switch {
+    display: flex;
+}

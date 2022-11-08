@@ -1,0 +1,16 @@
+.article-container__image {
+    align-self: stretch;
+    margin-top: 16px;
+
+    @media (min-width: 768px) {
+        align-self: flex-start;
+        margin-right: 24px;
+        border-radius: 6px;
+        max-width: 50%;
+    }
+
+    @media (min-width: 1120px) {
+        margin-right: 28px;
+        border-radius: 8px;
+    }
+}

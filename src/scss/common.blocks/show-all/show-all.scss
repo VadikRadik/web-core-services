@@ -1,0 +1,8 @@
+@import './__arrow/show-all__arrow.scss';
+@import './__label/show-all__label.scss';
+
+.show-all {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

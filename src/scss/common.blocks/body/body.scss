@@ -1,0 +1,10 @@
+.body {
+    margin: 0;
+    background-color: $backgroundWhite;
+    position: relative;
+
+    @media (min-width: $desctopWidth) {
+        display: flex;
+        justify-content: center;
+    }
+}

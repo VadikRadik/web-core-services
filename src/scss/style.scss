@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+$desctopWidth: 1120px;
+$tabletWidth: 768px;
+$backgroundWhite: #FFFFFF;
+$textColor: #1B1C21;
+$accentColor: #41F6D7;
+$lightTextColor: #B5B6BC;
+$borderColor: #EAEAEA;
+$inputTextColor: #7E7E82;
+$buttonsColor: #FF3E79;
+$borderSectionColor: #D9FFF5;
+$shadowGray: #888888;
+$pageBackColor: #F8F8F8;
+$logoGray: #80949F;
+$slideMenuHover: #B8FFEC;
+$cardButtonHover: #ff3e7828;
+
+@import './common.blocks/article-container/article-container.scss';
+@import './common.blocks/brand-card/brand-card.scss';
+@import './common.blocks/brands-swiper/brands-swiper.scss';
+@import './common.blocks/brands-tiles/brands-tiles.scss';
+@import './common.blocks/brands/brands.scss';
+@import './common.blocks/button/button.scss';
+@import './common.blocks/card-button/card-button.scss';
+@import './common.blocks/communications/communications.scss';
+@import './common.blocks/contacts/contacts.scss';
+@import './common.blocks/divider/divider.scss';
+@import './common.blocks/expanded-text/expanded-text.scss';
+@import './common.blocks/expander/expander.scss';
+@import './common.blocks/lang-switch/lang-switch.scss';
+@import './common.blocks/logo/logo.scss';
+@import './common.blocks/orders-menu/orders-menu.scss';
+@import './common.blocks/section-title/section-title.scss';
+@import './common.blocks/show-all/show-all.scss';
+@import './common.blocks/side-menu/side-menu.scss';
+@import './common.blocks/side-menu-item/side-menu-item.scss';
+@import './common.blocks/side-menu-list/side-menu-list.scss';
+@import './common.blocks/slide-menu/slide-menu.scss';
+@import './common.blocks/upper-menu/upper-menu.scss';
+@import './common.blocks/content-titile/content-title.scss';
+@import './common.blocks/body/body.scss';
+@import './common.blocks/fog-menu/fog-menu.scss';
+@import './common.blocks/fog-modal/fog-modal.scss';
+@import './common.blocks/modal-call/modal-call.scss';
+@import './common.blocks/modal-container/modal-container.scss';
+@import './common.blocks/input-text/input-text.scss';
+@import './common.blocks/long-button/long-button.scss';
+@import './common.blocks/modal-feedback/modal-feedback.scss';
+@import './common.blocks/textarea/textarea.scss';
+@import './common.blocks/kinds/kinds.scss';
+@import './common.blocks/kinds-tiles/kinds-tiles.scss';
+@import './common.blocks/kind-card/kind-card.scss';
+@import './common.blocks/kinds-swiper/kinds-swiper.scss';
+@import './common.blocks/prices/prices.scss';
+@import './common.blocks/table/table.scss';
+@import './common.blocks/table-row/table-row.scss';
+@import './common.blocks/table-row-card/table-row-card.scss';
+@import './common.blocks/prices-swiper/prices-swiper.scss';
+@import './common.blocks/price-card/price-card.scss';
+@import './common.blocks/footer/footer.scss';
+
+@import './common.blocks/page/page.scss';

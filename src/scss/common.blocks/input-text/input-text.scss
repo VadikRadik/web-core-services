@@ -1,0 +1,15 @@
+.input-text {
+    border-radius: 8px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: $inputTextColor;
+    height: 48px;
+    padding-left: 16px;
+    border: 1px solid $borderColor;
+
+    &:focus,
+    &:active {
+        border: 1px solid $borderColor;
+    }
+}

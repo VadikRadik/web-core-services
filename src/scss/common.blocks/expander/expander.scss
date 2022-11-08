@@ -1,0 +1,15 @@
+@import './__arrow/expander__arrow.scss';
+@import './__label/expander__label.scss';
+
+.expander {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none; /*for hiding default marker*/
+}
+
+/*for hiding default marker*/
+.expander::marker, /* Latest Chrome, Edge, Firefox */ 
+.expander::-webkit-details-marker /* Safari */ {
+    display: none;
+}

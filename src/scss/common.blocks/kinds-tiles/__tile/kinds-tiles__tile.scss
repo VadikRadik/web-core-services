@@ -1,0 +1,8 @@
+.kinds-tiles__tile {
+    margin-right: 24px;
+    margin-bottom: 16px;
+
+    @media (min-width: $desctopWidth) {
+        margin-right: 32px;
+    }
+}

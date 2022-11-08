@@ -1,0 +1,16 @@
+.content-title__text {
+    margin-left: 12px;
+    font-size: 28px;
+    line-height: 40px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    font-weight: bold;
+    color: $textColor;
+
+    @media (min-width: 768px) {
+        margin-left: 20px;
+    }
+    
+    @media (min-width: 1120px) {
+        margin-left: 28px;
+    }
+}

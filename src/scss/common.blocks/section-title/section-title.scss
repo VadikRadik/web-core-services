@@ -1,0 +1,19 @@
+.section-title {
+    font-family: "TT Lakes", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+    color: $inputTextColor;
+    padding: 16px;
+    background-image: linear-gradient(to right, $pageBackColor, $backgroundWhite);
+    border-top: 1px solid $borderSectionColor;
+    white-space: pre-wrap;
+
+    @media (min-width: 768px) {
+        padding-left: 24px;
+    }
+    
+    @media (min-width: 1120px) {
+        padding-left: 32px;
+    }
+}

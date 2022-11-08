@@ -1,0 +1,17 @@
+@import './__title/price-card__title.scss';
+@import './__info/price-card__info.scss';
+@import './__info-block/prices-card__info-block.scss';
+@import './__service-info/prices-card__service-info.scss';
+@import './__bottom-block/prices-card__bottom-block.scss';
+@import './__button/prices-card__button.scss';
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $borderColor;
+    border-radius: 6px;
+    background-color: $backgroundWhite;
+    justify-content: flex-start;
+    width: 260px;
+    height: 200px;
+}

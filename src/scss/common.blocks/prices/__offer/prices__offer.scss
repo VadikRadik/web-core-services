@@ -1,0 +1,20 @@
+.prices__offer {
+    display: inline;
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    color: $textColor;
+    font-weight: 500;
+    position: relative;  
+    cursor: pointer;
+
+    @media (min-width: $tabletWidth) {
+        margin-left: 24px;
+    }
+
+    @media (min-width: $desctopWidth) {
+        margin-left: 32px;
+    }
+}

@@ -1,0 +1,14 @@
+@import './__label/kind-card__label.scss';
+@import './__button/kind-card__button.scss';
+
+.kind-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $borderColor;
+    border-radius: 6px;
+    background-color: $backgroundWhite;
+    justify-content: space-between;
+    min-width: 220px;
+    max-width: 240px;
+    height: 160px;
+}

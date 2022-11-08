@@ -1,0 +1,9 @@
+.table-row__column-service {
+    flex-grow: 1;
+    margin-right: auto;
+    margin-left: 16px;
+
+    @media (min-width:$desctopWidth) {
+        margin-left: 24px;
+    }
+}

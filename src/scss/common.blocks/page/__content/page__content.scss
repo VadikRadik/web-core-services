@@ -1,0 +1,13 @@
+.page__content {
+    margin-bottom: 16px;
+
+    @media (min-width: $tabletWidth) {
+        margin-bottom: 32px;
+    }
+
+    @media (min-width: $desctopWidth) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+}

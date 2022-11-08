@@ -1,0 +1,22 @@
+.prices__disclaimer {
+    width: 280px;
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    color: $textColor;
+    font-weight: 500;
+
+    @media (min-width: $tabletWidth) {
+        margin-top: 24px;
+        margin-left: 24px;
+        width: 421px;
+    }
+
+    @media (min-width: $desctopWidth) {
+        margin-top: 32px;
+        margin-left: 32px;
+        width: 421px;
+    }
+}

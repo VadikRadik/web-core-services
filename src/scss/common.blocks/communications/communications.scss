@@ -1,0 +1,9 @@
+@import './__call/communications__call.scss';
+@import './__chat/communications__chat.scss';
+@import './__profile/communications__profile.scss';
+
+.communications {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

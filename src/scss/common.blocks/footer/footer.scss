@@ -1,0 +1,19 @@
+@import './__copyright/footer__copyright.scss';
+@import './__disclaimer/footer__disclaimer.scss';
+@import './__privacy-policy/footer__privacy-policy.scss';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid $borderSectionColor;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    color: $inputTextColor;
+    margin-bottom: 20px;
+
+    @media (min-width: $tabletWidth) {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,12 @@
+@import './__table/prices__table.scss';
+@import './__table-header/prices__table-header.scss';
+@import './__table-header-filler/prices__table-header-filler.scss';
+@import './__disclaimer/prices__disclaimer.scss';
+@import './__offer/prices__offer.scss';
+@import './__swiper/prices__swiper.scss';
+@import './__offer-arrow/prices__offer-arrow.scss';
+
+.prices {
+    display: flex;
+    flex-direction: column;
+}

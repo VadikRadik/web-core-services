@@ -1,0 +1,9 @@
+.content-title__orders-menu {
+    margin-left: auto;
+    margin-right: 32px;
+    display: none;
+
+    @media (min-width: 1120px) {
+        display: flex;
+    }
+}

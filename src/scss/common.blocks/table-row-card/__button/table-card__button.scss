@@ -1,0 +1,7 @@
+.table-card__button {
+    margin-right: 16px;
+
+    @media (min-width:$desctopWidth) {
+        margin-right: 24px;
+    }
+}

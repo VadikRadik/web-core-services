@@ -1,0 +1,14 @@
+@import './__block--hidden/page__block--hidden.scss';
+@import './__section/page__section.scss';
+@import './__content/page__content.scss';
+@import './__slide-menu/page__slide-menu.scss';
+@import './__title/page__title.scss';
+
+.page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    background-color: $pageBackColor;
+    min-height: 100vh;
+    position: relative;
+}

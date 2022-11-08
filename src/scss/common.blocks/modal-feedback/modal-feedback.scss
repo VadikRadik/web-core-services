@@ -1,0 +1,29 @@
+@import './__button-close/modal-feedback__button-close.scss';
+@import './__title/modal-feedback__title.scss';
+@import './__input/modal-feedback__input.scss';
+@import './__disclaimer/modal-feedback__disclaimer.scss';
+@import './__link/modal-feedback__link.scss';
+@import './__submit-button/modal-feedback__submit-button.scss';
+
+.modal-feedback {
+    position: absolute;
+    width: 320px;
+    min-height: 100vh;
+    right: 0;
+    transform: translateX(420px);
+    background-color: $backgroundWhite;
+    z-index: 30;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $tabletWidth) {
+        transform: translateX(540px);
+        width: 440px;
+    }
+}
+
+.modal-feedback--open {
+    transform: translateX(0);
+    filter: drop-shadow(-30px 0 30px $shadowGray);
+}
