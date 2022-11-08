@@ -1,4 +1,5 @@
 export let createHandlers = function() {
+    // side menu open and close handlers
     let burgerMenuButton = document.querySelector(".upper-menu__menu-button");
     burgerMenuButton.addEventListener("click", function() {
         let sideMenu = document.querySelector(".side-menu");
@@ -8,24 +9,23 @@ export let createHandlers = function() {
         fog.classList.add("fog-menu--visible");
     });
 
-    let sideMenuCloseButton = document.querySelector(".side-menu__close");
-    sideMenuCloseButton.addEventListener("click", function(){
-        let sideMenu = document.querySelector(".side-menu");
-        sideMenu.classList.remove("side-menu--open");
-
-        let fog = document.querySelector(".fog-menu");
-        fog.classList.remove("fog-menu--visible");
-    });
-
-    window.addEventListener("resize", function(evt) {
+    let sideMenuCloseHandler = function(evt) {
         let openMenu = document.querySelector(".side-menu--open");
         if (openMenu) {
             openMenu.classList.remove("side-menu--open");
             let fog = document.querySelector(".fog-menu");
             fog.classList.remove("fog-menu--visible");
         }
-    });
+    }
 
+    let sideMenuCloseButton = document.querySelector(".side-menu__close");
+    let fogMenu = document.querySelector(".fog-menu");
+
+    sideMenuCloseButton.addEventListener("click", sideMenuCloseHandler);
+    window.addEventListener("resize", sideMenuCloseHandler);
+    fogMenu.addEventListener("click", sideMenuCloseHandler);
+
+    // call popup open and close handlers
     let callButtons = document.querySelectorAll(".communications__call");
     for (let i = 0; i < callButtons.length; i++) {
         callButtons[i].addEventListener("click", function() {
@@ -40,8 +40,12 @@ export let createHandlers = function() {
         });
     }
 
-    let modalCallCloseButton = document.querySelector(".modal-call__button-close");
-    modalCallCloseButton.addEventListener("click", function() {
+    let callCloseHandler = function() {
+        let isModalCallOpen = document.querySelector(".modal-call--open") !== null;
+        if (!isModalCallOpen) {
+            return;
+        }
+
         let modalContainer = document.querySelector(".modal-container");
         modalContainer.classList.remove("modal-container--visible");
 
@@ -50,8 +54,14 @@ export let createHandlers = function() {
 
         let fog = document.querySelector(".fog-modal");
         fog.classList.remove("fog-modal--visible");
-    });
+    }
 
+    let modalCallCloseButton = document.querySelector(".modal-call__button-close");
+    modalCallCloseButton.addEventListener("click", callCloseHandler);
+    let modalFog = document.querySelector(".fog-modal");
+    modalFog.addEventListener("click", callCloseHandler);
+
+    // feedback popup open and close handlers
     let feedbackButtons = document.querySelectorAll(".communications__chat");
     for (let i = 0; i < feedbackButtons.length; i++) {
         feedbackButtons[i].addEventListener("click", function() {
@@ -66,8 +76,12 @@ export let createHandlers = function() {
         });
     }
 
-    let modaFeedbackCloseButton = document.querySelector(".modal-feedback__button-close");
-    modaFeedbackCloseButton.addEventListener("click", function() {
+    let feedbackModalCloseHandler = function() {
+        let isModalFeedbackOpen = document.querySelector(".modal-feedback--open") !== null;
+        if (!isModalFeedbackOpen) {
+            return;
+        }
+
         let modalContainer = document.querySelector(".modal-container");
         modalContainer.classList.remove("modal-container--visible");
 
@@ -76,5 +90,9 @@ export let createHandlers = function() {
 
         let fog = document.querySelector(".fog-modal");
         fog.classList.remove("fog-modal--visible");
-    });
+    }
+
+    let modaFeedbackCloseButton = document.querySelector(".modal-feedback__button-close");
+    modaFeedbackCloseButton.addEventListener("click", feedbackModalCloseHandler);
+    modalFog.addEventListener("click", feedbackModalCloseHandler);
 }
