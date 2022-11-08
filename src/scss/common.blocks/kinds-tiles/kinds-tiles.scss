@@ -1,0 +1,15 @@
+@import './__tile/kinds-tiles__tile.scss';
+
+.kinds-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    height: 170px;
+    overflow-y: hidden;
+}
+
+.kinds-tiles--expanded {
+    overflow-y: visible;
+    height: auto;
+}

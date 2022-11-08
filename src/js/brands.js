@@ -115,7 +115,7 @@ let createSwiper = function(brands) {
         }
     });
 
-    const cardsParent = document.querySelector(".swiper-wrapper");
+    const cardsParent = document.querySelector(".brands-swiper > .swiper-wrapper");
     let swiperElement = document.querySelector(swiperClass);
 
     let cards = createBrandCards(brands);

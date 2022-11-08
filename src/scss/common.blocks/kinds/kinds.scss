@@ -1,0 +1,8 @@
+@import './__tiles/kinds__tiles.scss';
+@import './__show-all/kinds__show-all.scss';
+@import './__swiper/kinds__swiper.scss';
+
+.kinds {
+    display: flex;
+    flex-direction: column;
+}

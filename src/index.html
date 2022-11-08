@@ -94,11 +94,22 @@
                 </section>
                 <section class="kinds page__section">
                     <div class="section-title">РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ</div>
+                    <div class="swiper kinds-swiper page__block--hidden kinds__swiper">
+                        <div class="swiper-wrapper"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="kinds-tiles kinds__tiles page__block--hidden"></div>
                 </section>
                 <template id="brand-card-template">
                     <div class="brand-card">
                         <img class="brand-card__logo">
                         <a class="card-button brand-card__button"></a>
+                    </div>
+                </template>
+                <template id="kind-card-template">
+                    <div class="kind-card">
+                        <div class="kind-card__label"></div>
+                        <a class="card-button kind-card__button"></a>
                     </div>
                 </template>
                 <template id="show-all-template">
