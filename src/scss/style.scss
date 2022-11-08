@@ -26,6 +26,7 @@ $lightTextColor: #B5B6BC;
 $borderColor: #EAEAEA;
 $inputTextColor: #7E7E82;
 $buttonsColor: #FF3E79;
+$borderSectionColor: #D9FFF5;
 
 @import './common.blocks/article-container/article-container.scss';
 @import './common.blocks/brand-card/brand-card.scss';
@@ -69,5 +70,6 @@ $buttonsColor: #FF3E79;
 @import './common.blocks/table-row-card/table-row-card.scss';
 @import './common.blocks/prices-swiper/prices-swiper.scss';
 @import './common.blocks/price-card/price-card.scss';
+@import './common.blocks/footer/footer.scss';
 
 @import './common.blocks/page/page.scss';

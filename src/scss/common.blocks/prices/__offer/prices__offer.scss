@@ -1,4 +1,5 @@
 .prices__offer {
+    display: inline;
     margin-top: 16px;
     margin-left: 16px;
     font-size: 16px;
@@ -15,19 +16,5 @@
 
     @media (min-width: $desctopWidth) {
         margin-left: 32px;
-    }
-
-    &::after {
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        display: block;
-        background-image: url("../img/dropdown.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 70%;
-        content: "";
-        top: 8px;
-        left: 310px;
     }
 }
