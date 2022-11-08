@@ -1,0 +1,8 @@
+@import './__divider/table__divider.scss';
+
+.table {
+    display: flex;
+    flex-direction: column;
+    background-color: $backgroundWhite;
+    border-radius: 6px;
+}

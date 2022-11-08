@@ -1,0 +1,15 @@
+.prices__table-header {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    color: $inputTextColor;
+
+    @media (min-width: $desctopWidth) {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}

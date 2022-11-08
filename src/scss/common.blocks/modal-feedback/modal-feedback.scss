@@ -8,7 +8,7 @@
 .modal-feedback {
     position: absolute;
     width: 320px;
-    height: 100vh;
+    min-height: 100vh;
     right: 0;
     transform: translateX(420px);
     background-color: $backgroundWhite;

@@ -100,6 +100,22 @@
                     </div>
                     <div class="kinds-tiles kinds__tiles page__block--hidden"></div>
                 </section>
+                <section class="prices page__section">
+                    <div class="section-title">ЦЕНЫ НА УСЛУГИ</div>
+                    <div class="table-row prices__table-header page__block--hidden">
+                        <div class="table-row__column-service">Ремонтные услуги</div>
+                        <div class="table-row__column">Цена</div>
+                        <div class="table-row__column">Срок</div>
+                        <div class="prices__table-header-filler"></div>
+                    </div>
+                    <div class="table prices__table page__block--hidden"></div>
+                    <div class="swiper prices-swiper page__block--hidden prices__swiper">
+                        <div class="swiper-wrapper"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="prices__disclaimer">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</div>
+                    <div class="prices__offer">Получить коммерческое предложение</div>
+                </section>
                 <template id="brand-card-template">
                     <div class="brand-card">
                         <img class="brand-card__logo">
@@ -117,6 +133,33 @@
                         <span class="show-all__arrow"></span>
                         <span class="show-all__label">Показать все</span>
                         <span class="show-all__label page__block--hidden">Скрыть</span>
+                    </div>
+                </template>
+                <template id="table-row-card-template">
+                    <div class="table-row table-row-card">
+                        <div class="table-row__column-service"></div>
+                        <div class="table-row__column"></div>
+                        <div class="table-row__column"></div>
+                        <a href="#" class="long-button table-card__button">ЗАКАЗАТЬ</a>
+                    </div>
+                </template>
+                <template id="price-card-template">
+                    <div class="price-card">
+                        <div class="prices-card__service-info">
+                            <div class="price-card__title">Ремонтные услуги</div>
+                            <div class="price-card__info"></div>
+                        </div>
+                        <div class="prices-card__info-block">
+                            <div class="price-card__title">Цена</div>
+                            <div class="price-card__info"></div>
+                        </div>
+                        <div class="prices-card__bottom-block">
+                            <div class="prices-card__info-block">
+                                <div class="price-card__title">Срок</div>
+                                <div class="price-card__info"></div>
+                            </div>
+                            <a href="#" class="long-button prices-card__button">ЗАКАЗАТЬ</a>
+                        </div>
                     </div>
                 </template>
                 <div class="fog-menu"></div>

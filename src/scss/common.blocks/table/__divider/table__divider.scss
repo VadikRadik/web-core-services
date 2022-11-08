@@ -1,0 +1,13 @@
+.table__divider {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: block;
+    width: auto;
+    height: 1px;
+    background-color: $borderColor;
+
+    @media (min-width: $desctopWidth) {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
